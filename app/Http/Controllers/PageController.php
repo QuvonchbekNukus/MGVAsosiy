@@ -17,10 +17,14 @@ class PageController extends Controller
     public function contacts()
     {
         return view('contact');
-    }  
+    }
     public function courses()
     {
         return view('courses');
-    }   
+    }
+    public function dashboard()
+    {
+        return view('dashboard.index');
+    }
 
 }

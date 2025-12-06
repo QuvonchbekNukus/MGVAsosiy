@@ -12,3 +12,4 @@ Route::get('/', [App\Http\Controllers\PageController::class, 'index'])->name('ho
 Route::get('/about', [App\Http\Controllers\PageController::class, 'about'])->name('about');
 Route::get("/contacts", [App\Http\Controllers\PageController::class, 'contacts'])->name('contacts');
 Route::get("/courses", [App\Http\Controllers\PageController::class, 'courses'])->name('courses');
+Route::get("/dashboard", [App\Http\Controllers\PageController::class, 'dashboard'])->name('dashboard.index');

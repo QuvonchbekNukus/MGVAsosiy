@@ -48,7 +48,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="admin/src/index.html">Tizimga kirish</a>
+      <a class="btn-getstarted" href="{{ route('dashboard.index') }}">Tizimga kirish</a>
 
     </div>
   </header>
@@ -63,13 +63,13 @@
 
 
 
-  
+
   <footer id="footer" class="footer position-relative light-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="{{ route('home') }}" class="logo d-flex align-items-center">
             <span class="sitename">MILLIY GVARDIYA <BR>JMT</BR></span>
           </a>
         </div>
